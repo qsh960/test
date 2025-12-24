@@ -1,0 +1,15 @@
+#!/bin/bash
+# 初始化git仓库
+git init
+
+# 添加所有文件到暂存区
+git add .
+
+# 提交文件到本地仓库
+git commit -m "Initial commit"
+
+# 关联远程仓库（替换为实际仓库地址）
+git remote add origin https://github.com/yourusername/your-repo.git
+
+# 推送到远程仓库
+git push -u origin master
